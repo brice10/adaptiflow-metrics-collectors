@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.brice10</groupId>
 	<artifactId>metricscollectorbase</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<name>AdaptiFlow Metrics Collectors</name>
 	<description>This library gather a set of infrastructure-level metrics collectors for adaptation purposes</description>
@@ -11,8 +11,6 @@
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<slf4j.version>2.0.0</slf4j.version>
 	</properties>
 
 
@@ -53,18 +51,6 @@
 			<groupId>com.zaxxer</groupId>
 			<artifactId>HikariCP</artifactId>
 			<version>5.0.1</version>
-		</dependency>
-
-		<!-- Logging framework also used by ribbon -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>${slf4j.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>${slf4j.version}</version>
 		</dependency>
 
 		<dependency>
