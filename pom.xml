@@ -11,6 +11,7 @@
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
+		<docker-java.version>3.3.6</docker-java.version>
 	</properties>
 
 
@@ -38,6 +39,18 @@
 	</developers>
 
 	<dependencies>
+
+		<!-- Docker Java Client -->
+		<dependency>
+			<groupId>com.github.docker-java</groupId>
+			<artifactId>docker-java-core</artifactId>
+			<version>${docker-java.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.docker-java</groupId>
+			<artifactId>docker-java-transport-httpclient5</artifactId>
+			<version>${docker-java.version}</version>
+		</dependency>
 
 		<!-- JavaEE Dependencies -->
 		<dependency>
