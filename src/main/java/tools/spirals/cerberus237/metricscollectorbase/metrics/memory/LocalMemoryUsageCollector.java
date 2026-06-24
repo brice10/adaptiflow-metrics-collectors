@@ -13,10 +13,10 @@
  */
 package tools.spirals.cerberus237.metricscollectorbase.metrics.memory;
 
-import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
-
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
+
+import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
 
 /**
  * Class for collecting memory usage metrics from the Java Virtual Machine (JVM).

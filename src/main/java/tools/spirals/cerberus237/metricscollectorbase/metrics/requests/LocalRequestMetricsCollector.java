@@ -13,8 +13,8 @@
  */
 package tools.spirals.cerberus237.metricscollectorbase.metrics.requests;
 
-import tools.spirals.cerberus237.metricscollectorbase.filters.RequestMetricsController;
 import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
+import tools.spirals.cerberus237.metricscollectorbase.filters.RequestMetricsController;
 import tools.spirals.cerberus237.metricscollectorbase.models.ServiceMetrics;
 
 import java.util.Map;

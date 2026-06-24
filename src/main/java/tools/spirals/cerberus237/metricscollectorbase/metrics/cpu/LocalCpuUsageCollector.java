@@ -13,10 +13,11 @@
  */
 package tools.spirals.cerberus237.metricscollectorbase.metrics.cpu;
 
-import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
-
 import javax.management.MBeanServerConnection;
 import javax.management.ObjectName;
+
+import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
+
 import java.lang.management.ManagementFactory;
 
 /**

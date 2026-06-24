@@ -13,9 +13,9 @@
  */
 package tools.spirals.cerberus237.metricscollectorbase.metrics.database;
 
-import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
-
 import java.sql.*;
+
+import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
 
 /**
  * Class for collecting response time metrics for local database connections.

@@ -15,6 +15,7 @@ package tools.spirals.cerberus237.metricscollectorbase.metrics.database;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+
 import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
 import tools.spirals.cerberus237.metricscollectorbase.models.SQLDatabaseMetrics;
 
@@ -82,6 +83,7 @@ public class LocalDatabaseMetricsCollector implements IMetricsCollector<SQLDatab
         config.setPassword(password);
         config.setMaximumPoolSize(10);
         config.setConnectionTimeout(3000);
+        config.setMinimumIdle(10);
         return new HikariDataSource(config);
     }
 

@@ -13,8 +13,6 @@
  */
 package tools.spirals.cerberus237.metricscollectorbase.metrics.docker;
 
-import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -22,6 +20,8 @@ import java.nio.file.Paths;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
 
 /**
  * Collector that retrieves the Docker container ID of the current container.

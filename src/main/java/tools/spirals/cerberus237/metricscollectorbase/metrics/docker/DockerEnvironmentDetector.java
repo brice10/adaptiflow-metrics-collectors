@@ -13,13 +13,13 @@
  */
 package tools.spirals.cerberus237.metricscollectorbase.metrics.docker;
 
-import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+import tools.spirals.cerberus237.metricscollectorbase.IMetricsCollector;
 
 /**
  * Collector that detects whether the current application is running inside a Docker container.
